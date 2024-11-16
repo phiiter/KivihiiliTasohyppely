@@ -32,8 +32,6 @@ class Load extends Phaser.Scene {
     }
 
     create() {
-        
-        
         console.log(this.textures.list);
         music = this.sound.add('backGroundMusic');
         music.play();
